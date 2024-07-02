@@ -1,0 +1,50 @@
+/* src/components/Welcome.css */
+body::before {
+    content: "";
+    background-image: url('../assets/images/calendar.png'); /* Caminho relativo a partir do CSS */
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    z-index: -1;
+  }
+  
+  .welcome-container {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(52, 73, 94, 0.8); /* Fundo semitransparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ecf0f1;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .welcome-container h2 {
+    margin-bottom: 20px;
+    color: #ecf0f1;
+  }
+  
+  .welcome-container p {
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  
+  .welcome-button {
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .welcome-button:hover {
+    background-color: #1f618d;
+  }
+  
